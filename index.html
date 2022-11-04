@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kyiv, Ukraine</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/2dbf53cdd4.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background: #0057b7;
+        color: #272142;
+        font-family: "Cerebri Sans";
+      }
+
+      .container {
+        box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.12);
+        margin: 20px auto;
+        background: #fff;
+        max-width: 1200px;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      .font::before {
+        content: " ";
+        animation: animate infinite 7s;
+      }
+
+      @keyframes animate {
+        0% {
+          content: "Tough";
+        }
+        10% {
+          content: "Great";
+        }
+        20% {
+          content: "Brave";
+        }
+        30% {
+          content: "Free";
+        }
+        40% {
+          content: "Strong";
+        }
+        50% {
+          content: "Wonderful";
+        }
+        60% {
+          content: "Bright";
+        }
+        70% {
+          content: "Talented";
+        }
+        80% {
+          content: "Hospitable";
+        }
+        90% {
+          content: "Unique";
+        }
+        100% {
+          content: "Tough";
+        }
+      }
+      .mainImg {
+        height: auto;
+        width: auto;
+        max-width: 500px;
+        max-height: 600px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+      .places {
+        height: 300px;
+        width: 200px;
+        object-fit: cover;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+      .kyivImg {
+        height: auto;
+        width: 300px;
+        object-fit: cover;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+      h1 {
+        font-size: 60px;
+        color: #272142;
+      }
+      h2 {
+        font-size: 40px;
+        text-align: center;
+      }
+      h3 {
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      h5 {
+        font-size: 16px;
+        text-align: center;
+      }
+      .btn-branding {
+        background: #0057b7;
+        border-radius: 4px;
+        color: #ffdd00;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 15px 30px;
+      }
+      .btn-branding:hover {
+        background: white;
+        border: 1px solid #0057b7;
+        color: #0057b7;
+      }
+      .btn-war {
+        background: #ff0200;
+        border-radius: 4px;
+        color: white;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 15px 30px;
+      }
+      .btn-war:hover {
+        background: white;
+        border: 1px solid #ff0200;
+        color: #ff0200;
+      }
+      .heartIconBlue {
+        margin-top: -140px;
+        color: #0057b7;
+      }
+      .heartIconYellow {
+        margin-top: -140px;
+        color: #ffdd00;
+      }
+
+      li {
+        list-style: none;
+        padding-inline-start: 1ch;
+      }
+      li::marker {
+        content: "💙";
+      }
+      li:hover::marker {
+        content: "💛";
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-6">
+          <div class="city">
+            <h1>Kyiv 🇺🇦</h1>
+            <h2 class="mb-4 text-left">
+              is the capital of
+              <br />
+              <div class="font text-uppercase text-left"></div>
+              PEOPLE
+            </h2>
+            <h3 class="text-left">
+              Kyiv is Ukraine's capital and one of Europe's oldest cities,
+              having been founded more than 1,500 years ago. Anyone, from lovers
+              of natural beauty, architecture, and sights to those who prefer
+              more intense and active recreation, can be surprised by a modern
+              European city.
+            </h3>
+            <br />
+            <h4>Let's explore ✨</h4>
+
+            <br />
+          </div>
+          <div>
+            <a href="#mustvisit" class="btn btn-branding">Must Visit</a>
+            <a href="#TipsTricks" class="btn btn-branding">Tips & Tricks</a>
+            <a href="#warNews" class="btn btn-branding">War News</a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <div class="col d-none d-sm-block">
+            <img
+              src="https://i.pinimg.com/originals/95/a1/64/95a164fc94909f1bf7890b2c80f69829.jpg"
+              class="img-fluid float-right rounded mainImg"
+              alt="Kyiv"
+            />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!--places to see-->
+      <div class="mustVisit mt-3">
+        <h2 class="text-center" id="mustvisit">
+          Best Places to Visit in Kyiv, Ukraine
+        </h2>
+        <div class="row mt-5">
+          <div class="col-sm-3 col-md-3">
+            <img
+              src="https://i.pinimg.com/originals/97/71/8c/97718cd0e22630629666600a207f5b6e.jpg"
+              class="img-fluid rounded places mt-1"
+              alt="Khreschatyk Street"
+            />
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <h3>Khreschatyk Street</h3>
+            <h5>
+              The main street of Kyiv, the central street, is a must-see. Only
+              1.2 kilometers long, but what an adventure! This street is always
+              bustling, and even during the war, Khreshchatyk remains the
+              capital's most visited street. The Kyiv City Council, the Central
+              Department Store, the Kyiv Philharmonic, the Conservatory, two
+              metro stations, administrative buildings, cinemas, shops, hotels,
+              and restaurants are all located on Khreshchatyk.
+            </h5>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <img
+              src="https://pbs.twimg.com/media/CSAe_K_WwAAsKKb?format=jpg&name=small"
+              class="img-fluid rounded places mt-1"
+              alt="Independence Square"
+            />
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <h3>Independence Square</h3>
+            <h5>
+              The main street of Kyiv, the central street, is a must-see. Only
+              1.2 kilometers long, but what an adventure! This street is always
+              bustling, and even during the war, Khreshchatyk remains the
+              capital's most visited street. The Kyiv City Council, the Central
+              Department Store, the Kyiv Philharmonic, the Conservatory, two
+              metro stations, administrative buildings, cinemas, shops, hotels,
+              and restaurants are all located on Khreshchatyk.
+            </h5>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-3 col-md-3">
+            <h3>The Motherland Monument</h3>
+            <h5>
+              The Motherland Monument is one of the most prominent symbols of
+              Ukraine's capital. The monument is one of the top 20 tallest
+              statues in the world and thus deserves to be seen. From here, you
+              can get a bird's-eye view of Kyiv. Viewing platforms aid in this:
+              one is located on the pedestal's and the sculpture's border (36
+              meters), and the other is on the arm with the shield (91 meters).
+            </h5>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <img
+              src="https://i.pinimg.com/originals/46/e9/42/46e942b145777785898e992e64ada790.jpg"
+              class="img-fluid rounded places mt-1"
+              alt="The Motherland Monument"
+            />
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <h3>St. Nicholas Roman Catholic Cathedral</h3>
+            <h5>
+              Spectacular building of the St. Nicholas Roman Catholic Cathedral,
+              jutting out into the sky with two slender towers, is one of the
+              most unusual and beautiful buildings in the Old Kyiv. Raised in
+              untypical for Ukraine's capital Neo Gothic style, it significantly
+              stands out against the background of other buildings at the city's
+              downtown and inevitably amazes Kyiv's locals and guests.
+            </h5>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <img
+              src="https://i.pinimg.com/originals/d9/fe/76/d9fe76b3835ed43448db87a1055f4445.jpg"
+              class="img-fluid rounded places mt-1"
+              alt="St. Nicholas Roman Catholic Cathedral"
+            />
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-3 col-md-3">
+            <img
+              src="https://i.pinimg.com/originals/27/54/74/275474c99138dfee83e46f301d19351b.jpg"
+              class="img-fluid rounded places mt-1"
+              alt="Kyiv-Pechersk Lavra "
+            />
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <h3>Kyiv-Pechersk Lavra</h3>
+            <h5>
+              One of the most well-known and oldest temple complexes in the
+              country, dating back to 1051. You can spend hours here exploring
+              the sacred architecture, the mystery of the caves, and the
+              numerous museums. Whatever you believe, the Kyiv-Pechersk Lavra
+              can provide you with some peace of mind.
+            </h5>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <img
+              src="https://i.pinimg.com/564x/50/cc/ed/50ccedca2542099a28c25671a500ea53.jpg"
+              class="img-fluid rounded places mt-1"
+              alt="St. Andrew's Church"
+            />
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <h3>St. Andrew's Church</h3>
+            <h5>
+              The beautiful St. Andrew's Church was built in 1756 by renowned
+              Italian architect, Bartolomeo Rastrelli, at the request of Queen
+              Elisabeth, daughter of Peter the Great. It’s one of the most
+              beautiful churches in Kyiv, located in the Podil district. To get
+              here, you should walk up Andriyivsky Uzviz which is a major
+              tourist attraction in its own right, lined with stalls selling
+              typical Ukranian souvenirs.
+            </h5>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-3 col-md-3">
+            <h3>Podil</h3>
+            <h5>
+              Podil is one of the city's oldest and most beautiful districts.
+              Today, this area delights visitors with its low-rise houses from
+              the last century, narrow streets, and unique atmosphere. Two
+              ancient squares (Kontraktova and Postova), Kyiv-Mohyla Academy,
+              Gostinny Dvir, Samson fountain, and the lower station of a rare
+              mode of transportation - the funicular - are all concentrated
+              here. There are also many amazing restaurants in the area.
+            </h5>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <img
+              src="https://i.pinimg.com/originals/2c/89/5d/2c895dd470359219f2c6db7111ba33e2.jpg"
+              class="img-fluid rounded places mt-1"
+              alt="Podil"
+            />
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <h3>People's Friendship Arch</h3>
+            <h5>
+              Peoples' Friendship Arch - opened in 1982 as part of the
+              celebration of Kyiv's 1500th anniversary and the USSR's 60th
+              anniversary. In Soviet times, the monument was known as the
+              Monument to Commemorate Ukraine's Reunification with russia. Since
+              there will never be friendship with russia anymore, the Arch was
+              renamed as the Ukrainian people's Arch of Freedom.
+            </h5>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <img
+              src="https://i.pinimg.com/originals/9a/99/1c/9a991ce5391128924670612ec76cfbe2.jpg"
+              class="img-fluid rounded places mt-1"
+              alt="People's Friendship Arch"
+            />
+          </div>
+        </div>
+        <hr />
+      </div>
+      <!--tips in Kyiv-->
+      <div class="tips mt-4">
+        <h2 class="text-center" id="TipsTricks">Tips & Tricks in Kyiv</h2>
+        <div class="row mt-5">
+          <div class="col-sm-3 col-md-3 d-flex justify-content-center">
+            <img
+              src="https://i.pinimg.com/originals/30/f5/e0/30f5e0561e0a5665e8c892c02ef0e257.jpg"
+              class="img-fluid rounded places mt-1"
+              alt="Peremohy Street"
+            />
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <ul>
+              <li>
+                Plan your visit ahead of time: what you want to see, what
+                restaurants you want to try, and what else you want to do to
+                treat yourself?
+              </li>
+              <li>
+                Yes, you can plan not only traditional tourist activities, but
+                also beauty and health care! Prices in Ukraine are significantly
+                lower than in other countries, but service (believe me) is far
+                superior! It could be anything like stomatology, health checks,
+                beauty treatments, spa, etc.
+              </li>
+              <li>
+                At any time of year, you can find a variety of active sports and
+                entertainment locations! You can find a place to visit by simply
+                searching for something that interests you. If you're not sure
+                what you're up to, try searching experiences on
+                <a href="https://www.bodo.ua/" target="_blank">Bodo</a>.
+              </li>
+              <li>
+                If you intend to travel extensively, you can use Uber or rent a
+                car.
+                <a href="https://rental.ua/" target="_blank">Rental ua</a> is a
+                service that I and many other locals use.
+              </li>
+              <li>
+                The city has many parks and forest areas. Take a picnic or a
+                bike ride to any of these locations.
+              </li>
+              <li>
+                Pay attention to walls of the buildings in Kyiv. You'll find
+                many stunning murals. To make things easier, follow the map on
+                the official website
+                <a href="https://kyivmural.com/en/index" target="_blank"
+                  >Kyivmural</a
+                >.
+              </li>
+              <li>
+                Everyone says Kyiv is beautiful in the spring. The combination
+                of blossoming chestnut trees and a cheerful atmosphere is
+                wonderful. But winter in Kyiv is also worth seeing. St. Sophia
+                Square will host the main Christmas Tree. The entire city will
+                be enveloped in the warmth of the holiday season and mulled
+                wine. In addition, there is a ski resort in the city.
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-3 col-md-3 d-flex justify-content-center">
+            <img
+              src="https://i.pinimg.com/originals/3c/cb/cc/3ccbcc99a4ec3c1792ccf76c665d1d67.jpg"
+              class="img-fluid rounded places mt-1"
+              alt="St Sophia Square"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-sm-3 col-md-3 d-flex justify-content-center heartIconBlue"
+          >
+            <i class="fa-solid fa-heart" id="heart"></i>
+          </div>
+          <div class="col-sm-6 col-md-6"></div>
+          <div
+            class="col-sm-3 col-md-3 d-flex justify-content-center heartIconYellow"
+          >
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <!--war news-->
+      <div class="war mt-4">
+        <h2 class="text-center" id="warNews">War News</h2>
+        <h3>
+          Now that we are facing full-scale Russian aggression, Kyiv is not as
+          upbeat. Russia is destroying our country, infrastructure, and lives.
+          At night, Kyiv looks the following way:
+        </h3>
+        <div class="row mt-5">
+          <div class="col-sm-3 col-md-3 d-flex justify-content-center">
+            <img
+              src="https://24tv.ua/resources/photos/news/202211/2189553_16138998.jpg"
+              class="img-fluid rounded kyivImg mt-1"
+              alt=""
+            />
+          </div>
+          <div class="col-sm-3 col-md-3 d-flex justify-content-center">
+            <img
+              src="https://24tv.ua/resources/photos/news/202211/2189553_16139000.jpg"
+              class="img-fluid rounded kyivImg mt-1"
+              alt=""
+            />
+          </div>
+          <div class="col-sm-3 col-md-3 d-flex justify-content-center">
+            <img
+              src="https://24tv.ua/resources/photos/news/202211/2189553_16139002.jpg"
+              class="img-fluid rounded kyivImg mt-1"
+              alt=""
+            />
+          </div>
+          <div class="col-sm-3 col-md-3 d-flex justify-content-center">
+            <img
+              src="https://24tv.ua/resources/photos/news/202211/2189553_16139001.jpg"
+              class="img-fluid rounded kyivImg mt-1"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="mt-5 mb-5 d-flex justify-content-center">
+          <a href="https://war.ukraine.ua/" target="_blank" class="btn btn-war"
+            >Learn more about the war</a
+          >
+        </div>
+        <h3>
+          But we believe that we will win the war soon, and that once the dark
+          times have passed, we will welcome everyone to Ukraine!
+        </h3>
+      </div>
+      <footer>
+        <p class="text-center mt-5">
+          © 2022 | Designed & coded with 💖 by Kateryna Saltykova |
+          <span
+            ><a
+              href="https://github.com/keytaS/myPortfolio"
+              target="_blank"
+              class="codeLink"
+              >Open-sourced on GitHub</a
+            ></span
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
