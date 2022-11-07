@@ -15,6 +15,12 @@
       src="https://kit.fontawesome.com/2dbf53cdd4.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Limbu&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <style>
       body {
         background: #0057b7;
@@ -71,39 +77,49 @@
           content: "Tough";
         }
       }
+      .mainImg,
+      .places,
+      .kyivImg {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
       .mainImg {
         height: auto;
         width: auto;
         max-width: 500px;
         max-height: 600px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       }
       .places {
         height: 300px;
         width: 200px;
         object-fit: cover;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       }
       .kyivImg {
         height: auto;
         width: 300px;
         object-fit: cover;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       }
       .imgPlace {
         display: flex;
         justify-content: space-around;
       }
+      h1,
+      h2,
+      h3 {
+        color: #272142;
+        font-family: "Noto Serif", serif;
+      }
       h1 {
         font-size: 60px;
-        color: #272142;
       }
       h2 {
         font-size: 40px;
         text-align: center;
       }
+      .city h2 {
+        font-family: "Noto Sans Limbu", sans-serif;
+      }
       h3 {
-        font-size: 26px;
+        font-size: 24px;
         text-align: center;
         margin-bottom: 20px;
       }
@@ -214,7 +230,7 @@
       <div class="row">
         <div class="col-sm-10 col-md-6 pl-4">
           <div class="city">
-            <h1>Kyiv 🇺🇦</h1>
+            <h1>KYIV 🇺🇦</h1>
             <h2 class="mb-4 text-left">
               is the capital of
               <br />
